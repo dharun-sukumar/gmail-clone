@@ -40,7 +40,7 @@ const MailList = ({ mails }) => {
                 name="checkbox"
               />
                
-              <div className="">{mail.sender}</div>
+              <div className="ml-2">{mail.sender}</div>
             </div>
 
             <div className="flex text-sm font-medium">
