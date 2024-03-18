@@ -1,0 +1,30 @@
+[
+    {
+      "subject": "Vacation Plans",
+      "sender": "Jane Smith",
+      "date": "1:44 PM",
+      "body": "Here are the plans for our vacation next month.",
+      "isStarred": true
+    },
+    {
+      "subject": "Vacation Plans",
+      "sender": "Jane Smith",
+      "date": "1:44 PM",
+      "body": "Here are the plans for our vacation next month.",
+      "isStarred": true
+    },
+    {
+      "subject": "Vacation Plans",
+      "sender": "Jane Smith",
+      "date": "1:44 PM",
+      "body": "Here are the plans for our vacation next month.",
+      "isStarred": false
+    },
+    {
+      "subject": "Vacation Plans",
+      "sender": "Jane Smith",
+      "date": "1:44 PM",
+      "body": "Here are the plans for our vacation next month.",
+      "isStarred": false
+    }
+]
