@@ -6,18 +6,17 @@ import AddOns from "./AddOns";
 import Navbar from "./Navbar";
 
 function Wrapper() {
-    return (
-        <div className="">
-            <Navbar />
-            <div className="flex">
-                <Sidebar />
-                <Content />
-                <OptionsTop />
-                <AddOns />
-            </div>
-        </div>
-
-    );
+  return (
+    <div className="">
+      <Navbar />
+      <div className="flex">
+        <Sidebar />
+        <Content />
+        <OptionsTop />
+        <AddOns />
+      </div>
+    </div>
+  );
 }
 
 export default Wrapper;
