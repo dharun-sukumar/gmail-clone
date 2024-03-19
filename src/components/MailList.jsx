@@ -35,11 +35,8 @@ const MailList = ({ mails }) => {
             onMouseLeave={() => handleMouseLeave(index)}
           >
             <div className="flex items-center text-sm font-medium">
-              <input
-                type="checkbox"
-                name="checkbox"
-              />
-               
+              <input type="checkbox" name="checkbox" />
+              <FaRegStar className={`h-4 w-4 ml-2 ${mail.isStarred ? 'text-yellow-500' : ''}`} />
               <div className="ml-2">{mail.sender}</div>
             </div>
 

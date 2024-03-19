@@ -26,7 +26,7 @@ function StarredContent() {
         className="flex items-center justify-center w-52 rounded-xl mt-2"
         onClick={handleClickInbox}
       >
-        <div className="flex w-[90%] items-center h-7 justify-center">
+        <div className="flex w-[90%] items-center h-7 justify-center">  
           <MdInbox className="mr-4 h-5 w-5" />
           <div className="flex text-sm font-medium justify-between items-center w-[100%]">
             <p>Inbox</p>

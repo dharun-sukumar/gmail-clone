@@ -1,9 +1,9 @@
 import React from "react";
 import StarredContent from "./starredContent"
 import Sidebar from "../Sidebar";
-import OptionsTop from "../OptionsTop";
 import AddOns from "../AddOns";
 import Navbar from "../Navbar";
+import StarredOptionsTop from "./starredOptionOnTop";
 
 function Starred() {
   return (
@@ -12,7 +12,7 @@ function Starred() {
       <div className="flex">
         <Sidebar />
         <StarredContent />
-        <OptionsTop />
+        <StarredOptionsTop />
         <AddOns />
       </div>
     </div>
